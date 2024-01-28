@@ -233,7 +233,8 @@
 }
 
 .bottom-div form {
-  margin-bottom: 12px;
+  margin: auto auto 12px auto;
+  width: 90%;
 }
 
 .bottom-div form .wrapper {
@@ -244,15 +245,15 @@
   margin-bottom: 15px;
 }
 .bottom-div form .wrapper input {
-  width: 1345px;
   border: 2px solid #7b6ada;
   border-radius: 8px;
   padding: 12px;
   background-color: transparent;
+  width: 99%;
 }
 .bottom-div form .wrapper textarea {
   height: 200px;
-  width: 1345px;
+  width: 99%;
   border: 2px solid #7b6ada;
   border-radius: 8px;
   padding: 12px;
@@ -301,7 +302,7 @@ footer .line-1 a {
   color: #7b6ada;
 }
 
-footer .links{
+footer .links {
   display: flex;
   justify-content: center;
   align-items: center;

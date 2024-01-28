@@ -103,11 +103,12 @@
 
 .top-div .content {
   height: 400px;
-  width: 900px;
+  width: 90%;
+  max-width: 900px;
   padding: 40px;
   position: absolute;
   top: 80px;
-  right: 30px;
+  right: 2%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.6)),
     url("./images/bg.jpg");
   background-position: center;

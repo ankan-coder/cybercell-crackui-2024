@@ -104,8 +104,9 @@
   height: 400px;
   width: 900px;
   padding: 40px;
-  margin-top: 80px;
-  margin-left: 500px;
+  position: absolute;
+  top: 80px;
+  left: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.6)),
     url("./images/bg.jpg");
   background-position: center;
@@ -231,12 +232,10 @@
   font-weight: 600;
   padding: 12px;
 }
-
 .bottom-div form {
   margin: auto auto 12px auto;
   width: 90%;
 }
-
 .bottom-div form .wrapper {
   display: flex;
   justify-content: center;

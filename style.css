@@ -63,6 +63,8 @@
 
 .navbar .nav-right .nav-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 
@@ -70,6 +72,13 @@
   color: white;
   font-size: 13px;
   font-weight: 600;
+  transition: ease 0.5s;
+}
+
+.navbar .nav-right .nav-links a:hover {
+  background-color: rgba(220, 219, 239, 0.5);
+  padding: 3px 10px;
+  border-radius: 8px;
 }
 
 .navbar .nav-right .nav-btn {
@@ -203,13 +212,21 @@
   font-weight: 600;
 }
 
-.mid-div .cards .card .card-btn {
+.mid-div .cards .card .card-btn a{
   color: #7b6ada;
   background-color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 32px;
   padding: 0px 15px;
   font-size: 13px;
+}
+
+.mid-div .cards .card .card-btn{
+  background-color: transparent;
+  font-weight: 500;
+  padding: 0px 15px;
+  font-size: 13px;
+  width: 100%;
 }
 
 .mid-div .cards .card .card-desc {
@@ -259,6 +276,11 @@
   border-radius: 8px;
   padding: 12px;
   background-color: transparent;
+}
+
+.bottom-div form .wrapper input[type="text"]:focus-visible,
+.bottom-div form .wrapper textarea:focus-visible {
+  outline: 0px;
 }
 
 .bottom-div form .wrapper label {
